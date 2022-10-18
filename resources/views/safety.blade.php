@@ -224,7 +224,7 @@ echo 'Merk Motor : ' . $Suzuki->getMerk();
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <div class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/spek') }}">Spesifikasi</a>
+                        <a class="nav-link" href="{{ url('/') }}">Spesifikasi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('/eksterior') }}">Fitur Eksterior</a>

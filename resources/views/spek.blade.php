@@ -224,7 +224,7 @@ echo 'Merk Motor : ' . $Suzuki->getMerk();
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <div class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="{{ url('/spek') }}">Spesifikasi</a>
+                        <a class="nav-link active" href="{{ url('/') }}">Spesifikasi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('/eksterior') }}">Fitur Eksterior</a>
@@ -239,41 +239,41 @@ echo 'Merk Motor : ' . $Suzuki->getMerk();
     <body>
         <div class="container">
             <div class="jumbotron text-center" style="margin-top:60px">
-                <h1>Spesifikasi {{ $Suzuki->getMerk();}}</h1>
+                <h1>Spesifikasi {{ $Suzuki->getMerk()}}</h1>
             </div>
             <table class="table table-striped table-bordered table-hover">
               <tbody>
                 <tr>
                     <td>Dimensi (P x L x T)</td>
-                    <td>{{$Suzuki->getDimensi();}}</td>
+                    <td>{{$Suzuki->getDimensi()}}</td>
                 </tr>
                 <tr>
                     <td>Isi Silinder</td>
-                    <td>{{$Suzuki->getIsisilinder();}}</td>
+                    <td>{{$Suzuki->getIsisilinder()}}</td>
                 </tr>
                 <tr>
                     <td>Tipe Drive</td>
-                    <td>{{$Suzuki->getTipedrive();}}</td>
+                    <td>{{$Suzuki->getTipedrive()}}</td>
                 </tr>
                 <tr>
                     <td>Konfigurasi Mesin</td>
-                    <td>{{$Suzuki->getKonfigurasimesin();}}</td>
+                    <td>{{$Suzuki->getKonfigurasimesin()}}</td>
                 </tr>
                 <tr>
                     <td>Transmisi</td>
-                    <td>{{$Suzuki->getTransmisi();}}</td>
+                    <td>{{$Suzuki->getTransmisi()}}</td>
                 </tr>
                 <tr>
                     <td>Performa</td>
-                    <td>{{$Suzuki->getPerforma();}}</td>
+                    <td>{{$Suzuki->getPerforma()}}</td>
                 </tr>
                 <tr>
                     <td>Suspensi Depan</td>
-                    <td>{{$Suzuki->getSuspensidepan();}}</td>
+                    <td>{{$Suzuki->getSuspensidepan()}}</td>
                 </tr>
                 <tr>
                     <td>Suspensi Belakang</td>
-                    <td>{{$Suzuki->getSuspensibelakang();}}</td>
+                    <td>{{$Suzuki->getSuspensibelakang()}}</td>
                 </tr>
               </tbody>
             </table>
